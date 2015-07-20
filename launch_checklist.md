@@ -26,7 +26,9 @@ Get a small team together and go over the content of the site with a fine tooth 
 - **Copyright**: If you plan on using a date in the copyright info make sure it is set to automatically refresh from the time stamp on the server, and that the copyright owner is correct.  
 - **Terms**: If you are providing a service or are involved in promotions then you will need terms available for visitors to read. If you are unsure as to how these should be written then consult a lawyer for best advice. Remember: *make these as clear as possible*. There is nothing worse than being baffled by legal jargon.
 - **Privacy**: If you use cookies, capture data, or distribute data, then you need a privacy policy. Keep these simple and be clear on what data you collect and provide details of how you can be contacted for further information.
+
 ***
+
 ##Functionality
 Does it work? This might seem an obvious question to ask, but above all else this is the most important part of a project. You might have everything else in place but if the site doesn't work correctly what’s the point in launching it?
 

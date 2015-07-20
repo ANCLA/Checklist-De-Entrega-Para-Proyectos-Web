@@ -31,7 +31,7 @@ Un sitio puede presentar bugs menos cuando los visitantes usan el sitio por prim
 
 ***
 
-##Estandares y Validación 
+##Estandares y Validación
 
 Estas dos cosas deben ser considerados en todo el diseño y construcción para hacer cada experiencia a los usuarios en su sitio tan buena como sea posible.
 
@@ -56,50 +56,16 @@ Asegúrese de incluir mapas de sitio. Estos ayudan a los motores de búsqueda a 
 
 Es importante revisar el rendimiento del sitio. Se debe procurar reducir el tiempo de carga del sitio bajo condiciones normales de la conexión a internet.
 
-- **Revisar Velocidad del Sitio**: Usar servicios como [Google Page Speed](https://developers.google.com/speed/pagespeed/) or [Blame Stella](https://www.blamestella.com/) para revisar los tiempos de carga de los sitios web.
+- **Revisar Velocidad del Sitio**: Usar servicios como [Google Page Speed](https://developers.google.com/speed/pagespeed/) o [Blame Stella](https://www.blamestella.com/) para revisar los tiempos de carga de los sitios web.
 - **Tamaños de Imágenes**: Mantén las imágenes lo mas ligeras posibles. Procura comprimir imágenes para reducir los tiempos de carga.
-
-***
-
-##SEO
-
-Great SEO will mean your site will work harder and achieve greater success than a site that uses little or bad techniques. Get your research right and the rest will fall into place.
-
-This list is by no means extensive and if you want to learn more then we recommend reading more from these recent articles [Search Engine Optimization FAQ](http://webdesign.tutsplus.com/articles/general/search-engine-optimization-faq/) and [A Web Designer’s SEO Checklist](http://webdesign.tutsplus.com/articles/general/seo-checklist/?search_index=3).
-
-- **Keyword Research**: Make sure you are targeting the right demographic and market. It’s important to get this right in order to attract relevant traffic to your site. Carry out some research with [Google AdWords](http://www.google.co.uk/AdWords) and see which keyword (or search term) has the highest traffic potential and the least amount of competition and balance these two factors.
-- **Page Titles & Descriptions**: Do all the templates have the necessary page titles and meta data based on your keyword research? When focusing on a particular keyword try and get these to the front of descriptions and look at using both singular and plural forms.
-- **Image Alt-tags**: Do the main images of the site contain relevant and descriptive alt-tags? Using short descriptions will help. And remember try and choose a descriptive file name instead of random words and numbers for these images.
-- **Keywords**: Embed these in titles, descriptions and copy. 
-- **Content**: If the content is good it will work to optimize and compliment the SEO. Good keyword density within the copy works well so use both singular and plural forms of keywords in your text. Don’t overload the content or over think this, make it natural and only add when and if it is relevant. Search engines also prefer longer pages of content so look at getting the content to +300 words but focus more on the quality than quantity.
-- **URLs**: Make sure the site's URLs are clean. Using a descriptive URL instead of ones that are made up of random numbers or words will help with SEO and visitors finding a page they may want to return to, and look at getting a keyword into the URL if relevant.
 
 ***
 
 ##Analytics
 
-No matter how small a site is, having web analytics running will gather you valuable information on how to improve your website going forward..
+Es importante medir el trafico que recibe el sitio, asi como identifcar la audiencia y usuarios.
 
-- **Monitoring**: With good SEO in place use tracking codes to measure this. Tools such as [Google Analytics](http://www.google.co.uk/analytics/) (free) or services such as [Hubspot](http://www.hubspot.com/), [GoSquared](https://www.gosquared.com/) or [KISSmetrics](https://www.kissmetrics.com/) (paid) will give valuable feedback.
-
-***
-
-##Security
-
-You may have a lot of things you do not want the world to know about. For example; user-uploaded media, or shoppers' Credit Card details.
-
-- **Protect Sensitive Pages**: Protect any sensitive pages or folders from being indexed on search engines by putting in place robots.txt files and by excluding them from within Webmaster Tools. Also consider whether you need to use an .htaccess file to disable folder view within directories.
-- **Security Certificates**: When developing an eCommerce website, or a site that handles sensitive visitor information, the level of security will be paramount. Make sure to use protocols such as [SSL encryption](http://www.thawte.com/) to protect against unwanted information theft. It has also been proven that displaying seals such as [TRUSTe](http://www.truste.com/products-and-services/enterprise-privacy/TRUSTed-websites), can increase the credibility of a site.
-
-***
-
-##Hosting &amp; Backups
-
-Finding a web hosting provider can be hard and knowing what you need can be even harder to understand. There are many options and pricing plans to choose from but make sure to choose a provider that meets your needs, not one that offers more than you need to pay for.
-
-- **Types**: Shared Hosting, Reseller Hosting, Cloud Hosting, VPS Hosting and Dedicated Servers. Not sure what these mean? Then read these [quick tips](http://webdesign.tutsplus.com/articles/general/quick-tip-choose-a-hosting-provider-based-on-your-needs/?search_index=1).
-- **Backups**: Make sure you use a provider who can provide daily and weekly backups of your server and make sure to take local backups as well. 
-- **Monitoring**: Setup services such as [Pingdom](https://www.pingdom.com/) or other server monitoring tools to monitor the health of your server.
+- **Monitoreo**: Se debe de implementar el script de rastreo de trafico de [Google Analytics](http://www.google.com/analytics/) para el sitio.
 
 ***
 
@@ -114,26 +80,18 @@ Before you start any project a signed contract should be in place. The contract 
 
 ***
 
-##Deliverables
+##Entregables
 
 In the project contract clearly explain what the client will physically receive once a project is complete. The following is what we’d recommend.
 
+- **Hosting**: Se entragará un paquete básico de Hosting con las siguientes caracteristicas: 5GB de espacio en disco, 10GB de ancho de banda, 10 cuentas de correo, 1 base de datos y 1 subdominio o dominio adicional.
 - **Live Website**: This is the bare minimum. Make sure their website is up and live and fully functioning as intended.
-- **Style Guide**: A simple style guide is extremely beneficial for any website owner, points to consider include:
-
-	+ Font Styles
-	+ Image Sizes
-	+ Tone of Voice
-	+ Colours
-	+ Imagery Style
-	+ Colours
-
-- **Assets & Icons**: Any icons, illustrations, or infographics design and created for the website may be helpful to your client going forward. Supply them the files in different formats so they can use them in presentations or future design work. 
+- **Assets & Icons**: Any icons, illustrations, or infographics design and created for the website may be helpful to your client going forward. Supply them the files in different formats so they can use them in presentations or future design work.
 - **Offline Copy**: If requested by the client provide a copy of the site. Remember websites are a living document that should be continually updated and improved, so unless the site is static you will have to be making regular offline backups for the client.
 
 ***
 
-##When to Launch?
+##Lanzamiento del sitio
 
 Remember: never hand over a project or files without sign off and any outstanding payments settled. You will have no come back at this point if you do without either of these. Handing over a project without payment is the equivalent of a shop owner letting a customer walk out of a shop with a trolley full of goods on the promise that they will ‘pay you later’.
 
@@ -141,11 +99,10 @@ Now everything is in place you are ready to launch. But when should you? We try 
 
 ***
 
-##Ongoing Maintenance
+##Mantenimiento Continuo (Opcional)
 
 So you’ve launched the site, it’s working great and the client is happy, now what? You need to make sure that it continues to run without a hitch. Things can go wrong or get missed, server security compromised, or it could fall over. Make sure you’re ready for every eventuality.
 
-- **Backups**: Always, always, make sure backups are in place. Run at least two backups daily - one in the morning and one 12 hours later, limiting the amount of data that can go missing. 
 - **Version Control**: Try running a project through [Git](http://git-scm.com/), it’s a great version control system for teams of developers working in collaboration. Source code history is saved meaning that you can refer or revert back to previous versions if and when needed. For an introduction to Git read this in-depth article [Easy Version Control with Git](http://net.tutsplus.com/tutorials/other/easy-version-control-with-git/).
 - **Analytics**: In order to suggest improvements going forwards ask to be set up on the client's analytics, this way you can monitor traffic and site stats for the client and suggest improvements over the following month and year after launch.
 

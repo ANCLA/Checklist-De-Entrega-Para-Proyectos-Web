@@ -33,7 +33,7 @@ Un sitio puede presentar bugs menos cuando los visitantes usan el sitio por prim
 
 ##Estandares y Validación
 
-Estas dos cosas deben ser considerados en todo el diseño y construcción para hacer cada experiencia a los usuarios en su sitio tan buena como sea posible.
+Este apartado tiene que ser considerado **dentro** del diseño y programación. Cambios dentro de esta sección después de haberse entregado el proyecto se consideran como trabajo extra.
 
 - **Tamaño del Texto**: Hacer texto claro y fácil de leer, ajustar el espaciado de línea y permitir suficiente espacio en blanco.
 - **Etiquetas Alt**: Asegúrese de que todas las imágenes tienen etiquetas ALT descriptivas claras para los discapacitados visuales y los motores de búsqueda.
@@ -46,7 +46,7 @@ Estas dos cosas deben ser considerados en todo el diseño y construcción para h
 
 ##Sitemaps
 
-Asegúrese de incluir mapas de sitio. Estos ayudan a los motores de búsqueda a indexar su sitio web correctamente durante el proceso de rastreo.
+Incluir mapas de sitio. Estos ayudan a los motores de búsqueda a indexar su sitio web correctamente durante el proceso de rastreo.
 
 - **XML Sitemaps**: Estos son utilizados por los motores de búsqueda como Google, Bing y Yahoo. Se debe de crear un [XML Sitemap](http://webdesign.tutsplus.com/articles/general/all-you-need-to-know-about-xml-sitemaps/) sencillo y mandarlo a los Webmaster Tools. Estos serán utilizados para informar a los motores de búsqueda sobre las páginas que ha publicado.
 
@@ -69,42 +69,24 @@ Es importante medir el trafico que recibe el sitio, asi como identifcar la audie
 
 ***
 
-##Legal
-
-Before you start any project a signed contract should be in place. The contract should clearly outline the project deliverables and processes so both parties are 100% clear on what will be achieved as an end result. As part of that contract make sure the following has been agreed to cover any unforeseen circumstances.
-
-- **Image/Content Rights**: Clearly state that any supplied content or imagery that is handled by you remains the clients responsibility. Make clear that you will not be held liable for publishing content and images that they do not have the rights to use. Also educate the client that they should be using images or content that are either paid for or they have the rights to use.
-- **Payment Terms**: Set fair and staged payment terms at clearly defined milestones of a project (at the end of the design phase - before any development starts for example), never move on to the next phase of a project until the agreed payment is in.
-- **Timelines**: Set reasonable timelines that are fair to your client as well as manageable for you and your team. Clearly state that you will not be held responsible for any loss or damages as a result of a delay in the schedule caused by the client. It is a good idea to use something like [Basecamp](http://basecamp.com/) to manage your projects so all work and conversations are recorded should you need them to fall back on in the future.
-- **Intellectual Property Rights**: This will be different depending on who you are, what you’re offering, or the project in question. Clearly state what is owned by you and the client once the project is complete and payment has been made in full. Consider the rights to any software or code written by you that you wouldn’t want sold on, or anything similar that you feel you need to retain the rights to.
-
-***
 
 ##Entregables
 
-In the project contract clearly explain what the client will physically receive once a project is complete. The following is what we’d recommend.
+Estos puntos se consideran como un proyecto completamente entregado al cliente.
 
-- **Hosting**: Se entragará un paquete básico de Hosting con las siguientes caracteristicas: 5GB de espacio en disco, 10GB de ancho de banda, 10 cuentas de correo, 1 base de datos y 1 subdominio o dominio adicional.
-- **Live Website**: This is the bare minimum. Make sure their website is up and live and fully functioning as intended.
-- **Assets & Icons**: Any icons, illustrations, or infographics design and created for the website may be helpful to your client going forward. Supply them the files in different formats so they can use them in presentations or future design work.
-- **Offline Copy**: If requested by the client provide a copy of the site. Remember websites are a living document that should be continually updated and improved, so unless the site is static you will have to be making regular offline backups for the client.
-
-***
-
-##Lanzamiento del sitio
-
-Remember: never hand over a project or files without sign off and any outstanding payments settled. You will have no come back at this point if you do without either of these. Handing over a project without payment is the equivalent of a shop owner letting a customer walk out of a shop with a trolley full of goods on the promise that they will ‘pay you later’.
-
-Now everything is in place you are ready to launch. But when should you? We try our very best to never launch a site within two days of a weekend. Sometimes this practice has to go out the window on occasions but we always try and aim for a Monday to Wednesday launch slot. This will give you the opportunity to iron out any live bugs that surface during a working week. Trying to fix these during a weekend when either you or your developers are not around will only cause you headaches when you have a client who needs their site to be fully functional. Trust us, you will only learn the hard way if you don’t adopt this approach.
+- **Sitio web en producción**
+- **Hosting**: Se entregará un paquete básico de Hosting con las siguientes caracteristicas: 5GB de espacio en disco, 10GB de ancho de banda, 10 cuentas de correo, 1 base de datos y 1 subdominio o dominio adicional.
+- **Assets e iconos**: Cualquier set de iconos, ilustraciones e infografías creados para el sitio web. Entregarlos en distintos formatos para que el cliente pueda utilizarlos en futuros trabajos/proyectos si así lo desea.
+- **Cuentas externas**: Como Google Analytics, cuentas creadas para e-shops / Paypal
+- **Alta en Google Webmaster Tools**: El sitio debe estar dado de alta en el servicio de Google, en caso de que el mantenimiento no corra por cuenta de Ancla, enlazarlo a una cuenta gmail de parte del cliente.
 
 ***
+
 
 ##Mantenimiento Continuo (Opcional)
 
-So you’ve launched the site, it’s working great and the client is happy, now what? You need to make sure that it continues to run without a hitch. Things can go wrong or get missed, server security compromised, or it could fall over. Make sure you’re ready for every eventuality.
+Una vez que se haya lanzado el sitio, es necesario darle mantenimiento y asegurarse que el proyecto esté corriendo 100%. La siguiente es una lista de lo que puede ser considerado como mantenimiento.
 
-- **Version Control**: Try running a project through [Git](http://git-scm.com/), it’s a great version control system for teams of developers working in collaboration. Source code history is saved meaning that you can refer or revert back to previous versions if and when needed. For an introduction to Git read this in-depth article [Easy Version Control with Git](http://net.tutsplus.com/tutorials/other/easy-version-control-with-git/).
-- **Analytics**: In order to suggest improvements going forwards ask to be set up on the client's analytics, this way you can monitor traffic and site stats for the client and suggest improvements over the following month and year after launch.
-
-***
-Let us know your launch checklist recommendations [on Webdesigntuts+](http://enva.to/XpDQqR)
+- **Backups / Copia offline**: Cada mes generar un backup del sitio web enteramente (Código, Base de Datos, etc.)
+- **Monitoreo**: Monitoreo de servicios externos usados en el proyecto web como APIs de terceros, librerías enlazadas, etc. Es necesario actualizarlas si han sido cambiadas.
+- **SEO**: Esto puede ser considerado un proyecto aparte. Es necesario monitorear el contenido del sitio web y su ranking en Google así como hacer mejoras continuas en el código directamente relacionado con el SEO, como agregar etiquetas para descripciones, mejora de titulos, texto en imágenes, formatos enriquecidos, etc. Monitoreo semanal.

@@ -1,82 +1,63 @@
-![image](http://f.cl.ly/items/1F0y2N1W3V1M1v2m2k1C/wdtuts-logo.png)
+![image](http://anclastudio.com/masnew/wp-content/themes/AnclaStudio/library/img/AnclaStudio.svg)
 
-#Website Launch Checklist
+#Checklist de Lanzamiento para Sitios Web
 
-At [FHOKE](http://www.fhoke.com) we’ve been through it all, from perfect launches to ones that have turned into complete nightmares! Through our experiences we’ve compiled a list, in no particular order, of a process we go through before we launch our sites. 
-
-This won’t cover everything, but should give you a quick overview of what you could be doing or adding to your own checklist.
-
-***
-
-##Successful Launch
-
-After having invested a lot of time in a project, launch day will be in sight. Before you get there you’ll still have important issues that need addressing to achieve a successful launch, get these right and both you and your client will be happy.
-
-Remember, before you show anything to a client make sure the site matches the original spec, is pixel perfect to the designs you presented and fulfills their original brief.
+Estos son los lineamientos que se deben de cumplir al entregar un sitio web en [ANCLA Studio](http://www.anclastudio.com).
+Antes de mostrarle algo al cliente, se debe repasar para estar seguros de que el sitio coincide con las especificaciones técnicas originales, y los diseños son representados de manera correcta al brief original.
 
 ***
 
-##Content
+##Contenido
 
-Get a small team together and go over the content of the site with a fine tooth comb - **make sure you get this right**. Good content is the cornerstone of a great site.
-
-- **Spelling**: Check and check again. Run a spell check. Better still, get others involved. You can never have enough people making sure copy is correct. Look out for grammatical errors as well as checking for widows or orphaned words in important paragraphs.
-- **Copy**: Make sure real copy is in place and all placeholder text is removed. There is nothing worse than seeing lorem ipsum in a mission statement.
-- **Contact Details**: It seems obvious but make sure these are correct. Without them how do you expect people to get in touch? Check phone numbers, check email addresses and test that these are working, make a call or send an email and check they are received.
-- **Copyright**: If you plan on using a date in the copyright info make sure it is set to automatically refresh from the time stamp on the server, and that the copyright owner is correct.  
-- **Terms**: If you are providing a service or are involved in promotions then you will need terms available for visitors to read. If you are unsure as to how these should be written then consult a lawyer for best advice. Remember: *make these as clear as possible*. There is nothing worse than being baffled by legal jargon.
-- **Privacy**: If you use cookies, capture data, or distribute data, then you need a privacy policy. Keep these simple and be clear on what data you collect and provide details of how you can be contacted for further information.
+Se debe revisar que el contenido del sitio cumpla con los siguientes requisitos:
+- **Ortografía**: Revisar y revisar de nuevo. De preferencia más de un solo responsable. Hay que verificar que no haya errores de gramática ni ortografía en el contenido. A su vez revisar que no haya palabras comidas ni duplicadas y que los parrafos esten completos.
+- **Copy**: Asegurar que se está presentando contenido real y que todo los contenido de ejemplos esten removidos. No debe de salir nada con contenido "Lorem Ipsum".
+- **Detalles de contacto**: Revisar numeros de teléfono, direcciones de correo electronico y direcciones postales. De preferencia hacer una prueba de que estos datos son correctos (Hacer una llamada o enviar un correo de prueba).
+- **Términos y condiciones**: Si se esta ofreciendo un servicio o una promocion, se deben de tener términos y condiciones accesibles al usuario.
+- **Privacidad**: Si el sitio usa cookies, captura o distribuye datos, se requiere que haya una política de privacidad. Se debe establecer que datos se estan recolectando y como se puede contactar para proveer más detalles.
 
 ***
 
-##Functionality
+##Funcionalidad
 
-Does it work? This might seem an obvious question to ask, but above all else this is the most important part of a project. You might have everything else in place but if the site doesn't work correctly what’s the point in launching it?
-
-Minor bugs may appear when visitors use the site for the first time but making sure it works at near 100% will ensure a successful launch.
-
-- **Compatability**: Check the site works across all browsers and platforms. Specify at the beginning of a project to the client what platforms you will build and test to and stick to these. Use platforms such as [Responsivator](http://dfcb.github.com/Responsivator/) and [BrowserStack](http://www.browserstack.com/) to test sites quickly as well as on physical browsers and devices.
-- **Favicon**: Obvious, but this can be missed. Look at creating an iOS home screen icon too.
-- **Logo**: Does the logo link to the index page?
-- **404 Pages**: Check you have these in place, make sure they signpost ways for a user to get back into the site or direct them to pages of interest with relevant links.
-- **Redirects**: If you are redirecting pages use suitable 301 re-directs over 302.
-- **Forms**: Make sure they aren’t sending to spam mail boxes, or returning an error once submitted and include a thank you state once a form is submitted so a visitor knows it is sent. Above all else make sure the clients email address is specified when the site goes live.
-- **Links**: Do internal page links work? Do all external links work and do they open in a new tab if so intended?
-- **RSS Feeds**: Feeds can be useful. You don’t have to limit these to articles, you can have feeds for most pages for example new work or case studies added to a site.
+Un sitio puede presentar bugs menos cuando los visitantes usan el sitio por primera vez, asi que se deben de revisar los siguientes puntos:
+- **Compatibilidad**: Revisar que el sitio funciona en las plataformas y exploradores previamente definidos. Se pueden usar plataformas como [Responsivator](http://dfcb.github.com/Responsivator/) y [BrowserStack](http://www.browserstack.com/) para hacer las pruebas necesarias.
+- **Favicon**: El sitio debe de contar con los iconos de acceso directo generados de [RealFaviconGenerator](http://realfavicongenerator.net).
+- **Logo**: El logotipo debe de ligar a la página principal del sitio.
+- **Página 404**: El sitio debe de contar con una página default para enlaces no encontrados o mal escritos, asegurarse de que la página invite al usuario a regresar al sitio o sugerir enlaces de interés.
+- **Redireccionamiento**: Si está redirigiendo páginas utilizan una redirección 301 en vez de 302.
+- **Formularios**: Asegúrese de que no están enviando a los buzones de correo de spam, o devolver un error una vez enviado. Incluir un mensaje de agradecimiento para dar a conocer al usuario que su mensaje fue enviado exitosamente y asegurar que la dirección de correo del cliente sea correca y esten llegando de manera satisfactoria.
+- **Enlaces**: Todos los enlaces internos deben de funcionar correctamente. Los enlaces externos ademas, deben de abrirse en una pestaña nueva.
 
 ***
 
-##Standards &amp; Validation 
+##Estandares y Validación 
 
-These two things should be considered throughout the design and build to make every users experience on your site as good as it can be. Points to consider:
+Estas dos cosas deben ser considerados en todo el diseño y construcción para hacer cada experiencia a los usuarios en su sitio tan buena como sea posible.
 
-- **Accessibility**: It's easy to forget how inaccessible a webpage is for some users. Have you considered how assistive technologies [such as screenreaders](http://webdesign.tutsplus.com/articles/general/accessibility-whats-your-markup-saying-to-you/) will navigate your site? Have you implemented [WIA-ARIA](http://en.wikipedia.org/wiki/WAI-ARIA) roles and states, or at least considered the tab order of form controls?
-- **Contrast**: This follows on from our point about accessibility. Using the very latest monitors it’s easy to see subtle differences in color, be sure to test your site on multiple devices and laptops to make sure the design has clarity and text can be read with ease.
-- **Text Size**: Make text clear and easy to read, adjust line spacing and allow plenty of white space. Bigger, can mean better, when it comes to text on the web.
-- **Alt Tags**: Make sure all images have clear descriptive ALT tags for the visually impaired. Not only that but without them they can’t be found in search engines.
-- **Consistency**: Make sure common elements across the site are consistent to avoid confusing your users. Make buttons look like buttons, links look like links, and titles and text should be the consistent in size and color.
-- **Device Compatibility**: Consider how the website will be used across multiple devices, responsive or not your website should work for desktop and mobile web users.
-- **Validation**: Always aim for 100% validity. If your site fails to validate fully don’t get too upset, but be sure to understand any errors in order to to eliminate any unwanted issues.
-- **JavaScript**: Many people browsing the web have JavaScript turned off for security reasons. Make sure your site is fully functional and forms still perform server-side validation checks without it.
-- **Flash**: Yeah, we know, nobody uses Flash anymore right? If Flash has to be used, be sure to include an alternative backup image should Flash Player not be installed. 
+- **Tamaño del Texto**: Hacer texto claro y fácil de leer, ajustar el espaciado de línea y permitir suficiente espacio en blanco.
+- **Etiquetas Alt**: Asegúrese de que todas las imágenes tienen etiquetas ALT descriptivas claras para los discapacitados visuales y los motores de búsqueda.
+- **Compatibilidad de Dispositivos**: Considere cómo se utilizará la página web a través de múltiples dispositivos, responsivo o no su sitio web debe funcionar para los usuarios de escritorio y web móvil.
+- **Validación**: El sitio debe de pasar la [prueba de validación](https://validator.w3.org).
+- **JavaScript**: Asegúrese de que su sitio es totalmente funcional y que formularios aún realizan comprobaciones de validación del lado del servidor.
+- **Flash**: Por motivos de seguridad, rendimiento y compatibilidad, no se utlizará Flash en ningun sitio.
 
 ***
 
 ##Sitemaps
 
-Make sure you include sitemaps. These help search engines correctly index your website during the crawling process.
+Asegúrese de incluir mapas de sitio. Estos ayudan a los motores de búsqueda a indexar su sitio web correctamente durante el proceso de rastreo.
 
-- **HTML Sitemaps**: Although not as common practice as they were, this form of sitemap can have its benefits in helping visitors see a complete overview of the sites pages. Links for these are normally found in the footer of a site. 
-- **XML Sitemaps**: These are only ever used by search engines such as Google, Bing and Yahoo. Create an [XML Sitemap](http://webdesign.tutsplus.com/articles/general/all-you-need-to-know-about-xml-sitemaps/) easily and submit it via Webmaster Tools. These will then be used to inform search engines about the pages you have published.
+- **XML Sitemaps**: Estos son utilizados por los motores de búsqueda como Google, Bing y Yahoo. Se debe de crear un [XML Sitemap](http://webdesign.tutsplus.com/articles/general/all-you-need-to-know-about-xml-sitemaps/) sencillo y mandarlo a los Webmaster Tools. Estos serán utilizados para informar a los motores de búsqueda sobre las páginas que ha publicado.
 
 ***
 
-##Performance
+##Rendimiento
 
-A faster site is a better ranking site. You’ll also lower bounce rates on pages if you can reduce load times - who wants to wait for pages to load?
+Es importante revisar el rendimiento del sitio. Se debe procurar reducir el tiempo de carga del sitio bajo condiciones normales de la conexión a internet.
 
-- **Check site speed**: You can use services such as [Google Page Speed](https://developers.google.com/speed/pagespeed/) or [Blame Stella](https://www.blamestella.com/) to check the load times of your site's pages.
-- **Image sizes**: Keep your images as small as possible. Although network speeds are better than ever, no one wants to wait for a 10Mb page to load. Compressing images will only improve page load times.
+- **Revisar Velocidad del Sitio**: Usar servicios como [Google Page Speed](https://developers.google.com/speed/pagespeed/) or [Blame Stella](https://www.blamestella.com/) para revisar los tiempos de carga de los sitios web.
+- **Tamaños de Imágenes**: Mantén las imágenes lo mas ligeras posibles. Procura comprimir imágenes para reducir los tiempos de carga.
 
 ***
 
